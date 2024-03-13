@@ -12,10 +12,21 @@
             <h1>Grassriots Weather Station</h1>
         </header>
         <main>
+            <div class="js-wrapper">
+                <h1>Javascript is <span>Enabled</span></h1>
+            </div>
 
+            <noscript>
+                <style>
+                    .js-wrapper {
+                        display: none;
+                    }
+                </style>
+                <div class="no-js-msg">Oh no! I see that your Javascript is disabled. If you want to see the weather for your area, please enable it and refresh the page.</div>
+            </noscript>
         </main>
         <footer>
-            <p class="m-0">&copy; Sierra Katrian <?php echo date('Y'); ?>. All rights reserved.</p>
+            <p class="m-0">&copy; Sierra Katrian. All rights reserved.</p>
         </footer>
         
         <script type="text/javascript" src="/grassriots/script.js"></script>
