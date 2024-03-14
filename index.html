@@ -9,24 +9,28 @@
     </head>
     <body>
         <header>
-            <h1>Grassriots Weather Station</h1>
+            <div class="wrapper">
+                <h1>Grassriots Weather Station</h1>
+            </div>
         </header>
         <main>
-            <div class="js-wrapper">
-                <h1>Javascript is <span>Enabled</span></h1>
-            </div>
+            <div class="wrapper">
+                <div id="results" class="js-wrapper"></div>
 
-            <noscript>
-                <style>
-                    .js-wrapper {
-                        display: none;
-                    }
-                </style>
-                <div class="no-js-msg">Oh no! I see that your Javascript is disabled. If you want to see the weather for your area, please enable it and refresh the page.</div>
-            </noscript>
+                <noscript>
+                    <style>
+                        .js-wrapper {
+                            display: none;
+                        }
+                    </style>
+                    <div class="no-js-msg">Oh no! I see that your Javascript is disabled. If you want to see the weather for your area, please enable it and refresh the page.</div>
+                </noscript>
+            </div>
         </main>
         <footer>
-            <p class="m-0">&copy; Sierra Katrian. All rights reserved.</p>
+            <div class="wrapper">
+                <p class="m-0">&copy; Sierra Katrian. All rights reserved.</p>
+            </div>
         </footer>
         
         <script type="text/javascript" src="/grassriots/script.js"></script>
